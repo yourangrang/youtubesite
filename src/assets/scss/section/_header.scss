@@ -1,0 +1,102 @@
+.header__logo {
+    border-bottom: 1px solid var(--black400);
+    
+
+    a {
+        display: flex;
+        padding: 20px 5px;
+        position: relative;
+        margin: 0 2.5rem;
+
+        svg {
+            width: 2.2rem;
+            height: 2.2rem;
+            position: absolute;
+            left: -2.2rem;
+            top: 1rem;
+        }
+
+        span {
+            font-size: 20px;
+            line-height: 1;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: var(--black200);
+        }
+
+    }
+}
+
+.header__menu {
+    padding: 10px 0;
+
+    .menu {
+
+        li {
+            margin-bottom: 5px;
+
+            a {
+                font-size: 1rem;
+                display: block;
+                padding: 0.9rem 2rem 0.9rem 3.125rem;
+                margin: 0 0.625rem;
+                border-radius: 40px;
+                position: relative;
+                line-height: 1;
+                color: var(--black200);
+                transition: all 0.3s;
+                font-weight: 800;
+
+                svg {
+                    width: 1.25rem;
+                    height: 1.25rem;
+                    position: absolute;
+                    left: 1.25rem;
+                    top: 0.75rem;
+                }
+
+                &:hover {
+                    background-color: var(--black400);
+                    color: var(--white);
+                }
+            }
+
+            &.active a {
+                background-color: var(--black100);
+                color: var(--white);
+            }
+        }
+    }
+
+    .keyword {
+        padding: 1.25rem;
+
+        li {
+            display: inline-block;
+
+            a {
+                display: inline-block;
+                padding: 5px 15px;
+                border: 1px solid var(--black600);
+                font-size: 0.8rem;
+                border-radius: 40px;
+                margin: 3px 1px;
+                transition: all 0.3s;
+                color: var(--black700);
+
+                &:hover {
+                    background-color: var(--black700);
+                    color: var(--white);
+                    font-weight: 700;
+                }
+            }
+
+            &.active a {
+                background-color: var(--black700);
+                color: var(--white);
+            }
+        }
+    }
+}
+
+
