@@ -1,9 +1,12 @@
 import React from 'react'
+import Main from '../components/section/Main'
 
 const Musicvideo = () => {
-  return (
-    <div>Musicvideo</div>
-  )
+    return (
+        <Main>
+            Musicvideo
+        </Main>
+    )
 }
 
 export default Musicvideo

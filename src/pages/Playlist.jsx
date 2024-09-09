@@ -1,9 +1,12 @@
 import React from 'react'
+import Main from '../components/section/Main'
 
 const Playlist = () => {
-  return (
-    <div>Playlist</div>
-  )
+    return (
+        <Main>
+            Playlist
+        </Main>
+    )
 }
 
 export default Playlist

@@ -5,12 +5,12 @@ import Logo from '../header/Logo'
 const Header = () => {
 	
 
-  return (
-    <header id='header' role='banner'>
-		<Logo />
-		<Menu />
-    </header>
-  )
+    return (
+        <header id='header' role='banner'>
+            <Logo />
+            <Menu />
+        </header>
+    )
 }
 
 export default Header
