@@ -17,7 +17,11 @@
 #footer {
     text-align: center;
     background-color: #333;
-    padding: 20px 20px 20px 260px;
+    padding: 20px;
+    margin-left: 260px;
+    width: calc(100% - 260px);
+    color: var(--black400);
+    font-size: 0.8rem;
 } 
 
                 
