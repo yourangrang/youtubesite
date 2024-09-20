@@ -6,7 +6,7 @@ const Playlist = () => {
         <Main 
             title = "맞춤형 플레이리스트"
             description="맞춤형 플레이리스트영상 입니다.">
-            Youtube
+            Playlist
         </Main>
     )
 }

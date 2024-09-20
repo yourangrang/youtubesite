@@ -1,4 +1,5 @@
 import { IoHeadset } from "react-icons/io5";
+import { FaRegThumbsUp } from "react-icons/fa6";
 import { FaRegStar } from "react-icons/fa6";
 import { GoVideo } from "react-icons/go";
 import { RiPlayListFill } from "react-icons/ri";
@@ -10,6 +11,11 @@ export const headerMenus = [
         title: "뮤직오늘",
         icon: <IoHeadset />,
         src:"/"
+    },
+    {
+        title: "추천영상",
+        icon: <FaRegThumbsUp />,
+        src:"/today"
     },
     {
         title: "아티스트",

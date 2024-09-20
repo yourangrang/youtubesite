@@ -6,7 +6,7 @@ const Musicvideo = () => {
         <Main 
             title = "뮤직비디오"
             description="오늘의 인기 뮤직비디오 입니다.">
-            Home
+            Musicvideo
         </Main>
     )
 }

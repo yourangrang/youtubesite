@@ -4,6 +4,7 @@ import Main from './components/section/Main';
 
 
 const Home = lazy(() => import('./pages/Home'));
+const Today = lazy(() => import('./pages/Today'));
 const Artist = lazy(() => import('./pages/Artist'));
 const Musicvideo = lazy(() => import('./pages/Musicvideo')); 
 const Playlist = lazy(() => import('./pages/Playlist')); 
@@ -20,6 +21,7 @@ const App = () => {
 			<Suspense fallback={<Main />}>
 				<Routes>
 					<Route path='/' element={<Home />}/>
+					<Route path='/today' element={<Today />}/>
 					<Route path='/artist' element={<Artist />}/>
 					<Route path='/musicvideo' element={<Musicvideo/>}/>
 					<Route path='/playlist' element={<Playlist />}/>

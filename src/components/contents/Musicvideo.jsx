@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Musicvideo = () => {
-  return (
-    <div>Musicvideo</div>
-  )
+    return (
+        <div>Musicvideo</div>
+    )
 }
 
 export default Musicvideo
