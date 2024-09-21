@@ -1,9 +1,32 @@
 import React from 'react'
 
+import { artistText } from '../../data/artist'
+import { Link } from 'react-router-dom'
+
+import { FaRegStar } from "react-icons/fa6";
+
 const Artist = () => {
-  return (
-    <div>Artist</div>
-  )
+    return (
+        <section id='artist'>
+            <h2>인기 아티스트 <FaRegStar /></h2>
+            <div className="artist__inner overflow" >
+                {artistText.map((artist, key)=>(
+                    <div className='artist' key={key}>
+                        <div className="artist__img play__icon">
+                            <Link to={`/channel/${artist.channelId}`}>
+                                <img src={artist.img} alt={artist.name}/>
+                            </Link>
+                        </div>
+                        <div className="artist__info">
+                            <Link to={`/channel/${artist.channelId}`}>
+                                {artist.name}
+                            </Link>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </section>
+    )
 }
 
 export default Artist

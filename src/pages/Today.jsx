@@ -13,7 +13,7 @@ const Today = () => {
             description="오늘의 추천 영상입니다.">
                 
             <section id='todayPage'>
-                <h2>오늘의 추천영상 입니다  <FaRegThumbsUp /></h2>
+                <h2>Today's Hits<FaRegThumbsUp /></h2>
 
                 {todayText.map((today, key)=>(
                     <div className='today__inner' key={key}>
