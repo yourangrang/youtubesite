@@ -9,8 +9,8 @@ import { FaRegStar } from "react-icons/fa6";
 const Artist = () => {
     return (
         <Main 
-            title = "추천 아티스트"
-            description="오늘의 추천 아티스트를 소개합니다.">
+            title = "인기 아티스트"
+            description="인기 아티스트를 소개합니다.">
             
 
             <section id='artistPage'>
