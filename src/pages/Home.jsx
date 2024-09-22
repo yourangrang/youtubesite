@@ -1,10 +1,11 @@
 import React from 'react'
-
 import Main from '../components/section/Main'
 import Today from '../components/contents/Today'
 import Artist from '../components/contents/Artist'
-import Musicvideo from '../components/contents/Musicvideo'
-import Playlist from '../components/contents/Playlist'
+import VideoSlider from '../components/videos/VideoSlider'
+
+import { playlistText } from '../data/playlist'
+import { musicvideoText } from '../data/musicvideo'
 
 
 const Home = () => {
@@ -15,8 +16,8 @@ const Home = () => {
             
             <Today />
             <Artist />
-            <Musicvideo />
-            <Playlist />
+            <VideoSlider videos={musicvideoText} title="인기 뮤직비디오" id="musicvideo" />
+            <VideoSlider videos={playlistText} title="상황에 맞는 플레이리스트를 골라보세요!" id="playlist" />
         </Main>
     )
 }
