@@ -23,6 +23,7 @@ export const playlistText = [
         videoId: "c_l1ZwJbAnc",
         date: "2023. 7. 14.",
         channelId: "UCvLz6NDDmx2zE3ublZoT9MQ",
+        topic: "비오는 날 "
     },
     {
         title: "산책하기 좋은날엔🌿 적당히 신나는 청량 플리 | Design making tutorial",
@@ -31,6 +32,7 @@ export const playlistText = [
         videoId: "fj8ReY0HxWc",
         date: "2022. 5. 30.",
         channelId: "UCdp8WGk7l78AIGooOvO35IQ",
+        topic: "산책하기 좋은 날 "
     },
     {
         title: "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 공부할때 듣는 적당히 신나는 노래 | 집중력 𝐔𝐏! 시험기간 벼락치기 필수 플레이리스트",
@@ -39,6 +41,7 @@ export const playlistText = [
         videoId: "Wx1ndu5FX2s",
         date: "2024. 8. 15.",
         channelId: "UCVut4hqvrjQC4qDE3oc5qig",
+        topic: "공부 할 때 집중력 up"
     },
     {
         title: "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭]선선한 새벽, 혼자 걷고 싶을 때",
@@ -47,6 +50,7 @@ export const playlistText = [
         videoId: "hiMoy4pyAl0",
         date: " 2022. 2. 27. ",
         channelId: "UCR-O_Q1n7o7GTOl5lp-LN7g",
+        topic: "새벽, 혼자 걷고 싶을 때"
     },
     {
         title: "𝐒𝐮𝐦𝐦𝐞𝐫 𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 한국의 찐여름 바이브🌞 여름 휴가 가며 아빠 차에서 들었던 90년대- 추억의 신나는 노래 모음",
@@ -55,6 +59,7 @@ export const playlistText = [
         videoId: "MfQDOh1o2Bo",
         date: "2022. 7. 24.",
         channelId: "UC26IU0OUxOuGyzyR7aWe2Hw",
+        topic: "신나는 추억노래 "
     },
     {
         title: "2 시간 지브리 여름 🎨 일, 공부, 휴식을위한 지브리 피아노 BGM",
@@ -63,6 +68,7 @@ export const playlistText = [
         videoId: "i2BO46TSD-o",
         date: "2024. 2. 2.",
         channelId: "UCOQ4WrTvAoVWGKDRoUKv8rg",
+        topic: "지브리 ost"
     },
     {
         title: "노동요",
@@ -71,6 +77,7 @@ export const playlistText = [
         videoId: "TpPwI_Lo0YY",
         date: "2015. 1. 31.",
         channelId: "UCdvjEK7vkqjt4PjcClDHm6g",
+        topic: "노동요, 마감시간 임박 "
     },
     {
         title: "[그시절] 투니버스 리즈시절 만화주제가 노래모음 | 𝗣𝗟𝗔𝗬𝗟𝗜𝗦𝗧 | 2000년대 애니 OST 모음",
@@ -79,6 +86,7 @@ export const playlistText = [
         videoId: "oC8WmCa-UlM",
         date: "2023. 1. 15.",
         channelId: "UC2kPuCfWPDZhRg60gOdOlKg",
+        topic: " 2000년대 애니 OST 모음 "
     },
     {
         title: "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 벌써부터 크리스마스 기다리는 사람? 𝐌𝐞𝐫𝐫𝐲 𝐂𝐡𝐫𝐢𝐬𝐭𝐦𝐚𝐬˚₊‧",
