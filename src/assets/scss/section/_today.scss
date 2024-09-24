@@ -2,10 +2,15 @@
     display: flex;
     background-color: var(--white);
     margin-bottom: 3.125rem;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .today__thumb {
+    border-radius: 20px;
+    overflow: hidden;
     width: 40%;
+
 }
 
 .today__text {

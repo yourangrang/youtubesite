@@ -22,7 +22,7 @@ const VideoSlider = ({title, videos, id}) => {
     return (
         <section id={id} className={videoClass}>
             <h2>{title}</h2>
-            <div className="video__slider">
+            <div className="video__slider play__icon">
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={20}

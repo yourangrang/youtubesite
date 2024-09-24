@@ -49,7 +49,7 @@ section {
             content: '';
             width: 100%;
             height: 100%;
-            background-color: var(--blackAlpha200);
+            background-color: var(--blackAlpha);
             position: absolute;
             left: 0;
             top: 0;
@@ -57,14 +57,14 @@ section {
         }
 
         &:hover::before {
-            background-color: var(--blackAlpha);
+            background-color: var(--blackAlpha300);
         }
 
         &::after {
             content: "";
             width: 80px;
             height: 80px;
-            background: var(--blackAlpha400) url(../../img/icon/play.svg) no-repeat center;
+            background: var(--blackAlpha) url(../../img/icon/play.svg) no-repeat center;
             position: absolute;
             left: 50%;
             top: 50%;

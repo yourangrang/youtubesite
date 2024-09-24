@@ -26,7 +26,6 @@ const Playlist = () => {
                 <h2>상황에 맞는 플레이리스트를 골라보세요!</h2>
                 <div className="video__inner">
                     <VideoCard videos={playlistText} />
-                    <div className="video__title">{playlistText.title}</div>
                 </div>
             </section>
         </Main>

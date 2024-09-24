@@ -7,7 +7,7 @@ const Musicvideo = () => {
     return (
         <section id='musicvideo'>
             <h2>인기 뮤직비디오</h2>
-            <div className="video__inner">
+            <div className="video__inner play__icon">
                 {musicvideoText.map((video, key)=>(
                     <div className="video" key={key}>
                         <div className="video__thumb">

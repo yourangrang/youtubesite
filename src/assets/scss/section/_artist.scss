@@ -16,6 +16,7 @@
             margin-right: 15px;
     
             .artist__img {
+                border-radius: 15px;
                 width: 150px;
                 height: 150px;
                 overflow: hidden;
@@ -24,7 +25,7 @@
             .artist__info {
                 font-weight: 400;
                 text-align: center;
-                margin: 10px 0;
+                margin: 5px 0 10px 0;
                 @include line-one;
             }
         }
@@ -70,3 +71,7 @@
                 margin: 10px 0;
                 @include line-one;
             }
+.artist__img {
+    border-radius: 15px;
+    overflow: hidden;
+}

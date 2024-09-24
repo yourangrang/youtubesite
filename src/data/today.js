@@ -1,6 +1,8 @@
 import pl01 from "../assets/img/pl/pl01.jpg"
 import mv02 from "../assets/img/mv/mv02.jpg"
 import mv03 from "../assets/img/mv/mv03.jpg"
+import pl15 from "../assets/img/pl/pl15.jpg"
+import pl08 from "../assets/img/pl/pl08.jpg"
 
 export const todayText = [
     {
@@ -30,5 +32,26 @@ export const todayText = [
         date:" 2024. 9. 6. ",
         page: "/musicvideo",
     },
+    {
+        title: "*ﾟ+.｡ 1세대 원조 레트로 하이틴 ℍ𝕚𝕘𝕙𝕥𝕖𝕖𝕟 𝕡𝕝𝕒𝕪𝕝𝕚𝕤𝕥 ｡+ﾟ*",
+        img: pl15,
+        desc: "",
+        author: "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
+        videoId: "uuGyFpuHOoo",
+        date: "2021. 5. 15.",
+        channelId: "UCVut4hqvrjQC4qDE3oc5qig",
+        page: "/playlist"
+    },
+    {
+        title: "[그시절] 투니버스 리즈시절 만화주제가 노래모음 | 𝗣𝗟𝗔𝗬𝗟𝗜𝗦𝗧 | 2000년대 애니 OST 모음",
+        img: pl08,
+        desc: "",
+        author: "나의플레이리스트 naply",
+        videoId: "oC8WmCa-UlM",
+        date: "2023. 1. 15.",
+        channelId: "UC2kPuCfWPDZhRg60gOdOlKg",
+        topic: " 2000년대 애니 OST 모음 ",
+        page: "/playlist"
+    }
     
 ]
