@@ -112,7 +112,7 @@
         }
     }
 }
-
+//더보기 버튼
 .video__more {
     button {
         margin: 0 auto;
@@ -144,5 +144,84 @@
         }
         
     }
+}
+
+// 비디오 페이지 
+#videoViewPage {
+    // padding: 0 20px;
+
+    @media (max-width: 800px){
+        margin-top: 80px;
+    }
+}
+.video__view {
+
+    .video__play {
+        width: 100%;
+        padding-bottom: 40%;
+        position: relative;
+    }
+
+    .video__info {
+        padding-top: 10px;
+
+        .video__title {
+            font-weight: 800;
+        }
+
+        .video__channel {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            
+
+            .id {
+                font-weight: 800;
+                background-color: var(--white);
+                padding: 10px 30px;
+                border-radius: 40px;
+                border: 3px solid #111;
+                margin-right: 20px;
+
+                &:hover {
+                    scale: 1.1;
+                    transition: all 0.3s;
+                    cursor: pointer;
+                    margin-left: 10px;
+                }
+            }
+
+            .count {
+                margin: auto 0;
+                font-weight: 800;
+
+                span {
+                    background-color: #fff;
+                    padding: 10px 20px;
+                    border-radius: 40px;
+                    border: 3px solid #111;
+                    border-radius: 40px;
+                    font-size: 14px;
+                    margin-left: 10px;
+
+                    svg {
+                        width: 20px;
+                        height: 20px;
+                        vertical-align: -5px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+        .video__desc {
+            white-space: pre-line;
+            background-color: var(--white);
+            border-radius: 30px;
+            border: 3px solid var(--black);
+            font-size: 0.9rem;
+            font-weight: 600;
+            padding: 20px;
+        }
+    } 
 }
 
