@@ -43,7 +43,7 @@ const Video = () => {
                             <div className="video__channel">
                                 <div className="id">
                                     채널명:
-                                    <Link to={`/channel/`}> {videoDetail.snippet.channelTitle}</Link>
+                                    <Link to={`/channel/${videoDetail.snippet.channelId}`}>{videoDetail.snippet.channelTitle}</Link>
                                 </div>
                                 <div className="count">
                                     <span className='view'>조회수: {videoDetail.statistics.viewCount}</span>
