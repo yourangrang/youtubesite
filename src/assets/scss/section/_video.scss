@@ -173,6 +173,18 @@
             display: flex;
             justify-content: space-between;
             margin-bottom: 20px;
+
+            @media (max-width:800px) {
+                display: inline-block;
+
+                .id {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+                .count {
+                    width: 100%;
+                }
+            }
             
 
             .id {
@@ -203,6 +215,7 @@
                     border-radius: 40px;
                     font-size: 14px;
                     margin-left: 10px;
+
 
                     svg {
                         width: 20px;

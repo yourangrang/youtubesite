@@ -1,15 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import { FcMusic } from "react-icons/fc";
 
-const Logo = () => {
+const Logo = ({ toggleMenu }) => {
   return (
         <h1 className='header__logo'>
-			<a href='/'>
-				<em aria-hidden='true'></em>
-				<FcMusic />
+			<Link to='/'>
+				<em aria-hidden='true' onClick={toggleMenu}><FcMusic /></em>
 				<span>뮤직<br />오늘</span>
-			</a>
+			</Link>
         </h1>
   )
 }
