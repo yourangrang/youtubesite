@@ -14,189 +14,88 @@ import mv13 from "../assets/img/mv/mv13.jpg"
 import mv14 from "../assets/img/mv/mv14.jpg"
 import mv15 from "../assets/img/mv/mv15.jpg"
 import mv16 from "../assets/img/mv/mv16.jpg"
-import mv17 from "../assets/img/mv/mv17.jpg"
-import mv18 from "../assets/img/mv/mv18.jpg"
-import mv19 from "../assets/img/mv/mv19.jpg"
-import mv20 from "../assets/img/mv/mv20.jpg"
 
 
 export const musicvideoText = [
     {
         img: mv01,
         title: "LE SSERAFIM (르세라핌) 'CRAZY' OFFICIAL MV",
-        author : "HYBE LABELS",
         videoId: "n6B5gQXlB-0",
-        channelId: "UC3IZKseVpdzPSBaWxBxundA",
-        date: "2024. 8. 30.",
     },
     {
         img: mv02,
         title:"DAY6(데이식스) '녹아내려요' M/v",
-        author : "JYP Entertainment",
         videoId: "yss4rIrHl6o",
-        channelId:"UCaO6TYtlC8U5ttz62hTrZgg",
-        date:"2024. 9. 2.",
     },
     {
         img: mv03,
         title:"MEOVV - ‘MEOW’ M/V",
-        author : "THEBLACKLABEL",
         videoId: "jpLHg-AsQV0",
-        channelId:"UCg8ZzloDPTrOiGztK0C9txQ",
-        date:" 2024. 9. 6. ",
     },
     {
         img: mv04,
-        title:"",
-        desc :"",
-        author : "",
-        channelId:"",
-        date:"",
-        page: ""
+        title:"NewJeans (뉴진스) ‘Supernatural’ Official MV",
+        videoId: "ZncbtRo7RXs"
     },
     {
         img: mv05,
-        title:"",
-        desc :"",
-        author : "",
-        channelId:"",
-        date:"",
-        page: ""
+        title:"PLAVE(플레이브) 'Pump Up The Volume!' M/V",
+        videoId: "EYG4ROejmyI"
     },
     {
         img: mv06,
-        title:"",
-        desc :"",
-        author : "",
-        channelId:"",
-        date:"",
-        page: ""
+        title:"(여자)아이들((G)I-DLE) - '클락션 (Klaxon)' Official Music Video",
+        videoId: "rTKqSmX9XhQ"
     },
     {
         img: mv07,
-        title:"",
-        desc :"",
-        author : "",
-        channelId:"",
-        date:"",
-        page: ""
+        title:"QWER '고민중독' Official MV",
+        videoId: "ImuWa3SJulY"
     },
     {
         img: mv08,
-        title:"",
-        desc :"",
-        author : "",
-        channelId:"",
-        date:"",
-        page: ""
+        title:"Kanye West - Runaway (Video Version) ft. Pusha T",
+        videoId: "Bm5iA4Zupek"
     },
     {
         img: mv09,
-        title:"",
-        desc :"",
-        author : "",
-        channelId:"",
-        date:"",
-        page: ""
+        title:"DAY6(데이식스) 'Welcome to the Show' M/V",
+        videoId: "RowlrvmyFEk"
     },
     {
         img: mv10,
-        title:"",
-        desc :"",
-        author : "",
-        channelId:"",
-        date:"",
-        page: ""
+        title:"KISS OF LIFE (키스오브라이프) 'Sticky' Official Music Video",
+        videoId: "IajeQM00yfE"
     },
     {
         img: mv11,
-        title:"",
-        desc :"",
-        author : "",
-        channelId:"",
-        date:"",
-        page: ""
+        title:"ILLIT (아일릿) ‘Magnetic’ Official MV",
+        videoId: "Vk5-c_v4gMU"
     },
     {
         img: mv12,
-        title:"",
-        desc :"",
-        author : "",
-        channelId:"",
-        date:"",
-        page: ""
+        title:"TWS (투어스) '내가 S면 넌 나의 N이 되어줘' Official MV",
+        videoId: "NRgZuuwD2WY"
     },
     {
         img: mv13,
-        title:"",
-        desc :"",
-        author : "",
-        channelId:"",
-        date:"",
-        page: ""
+        title:"임영웅 '온기' Official M/V",
+        videoId: "2WGc-5VdoGw"
     },
     {
         img: mv14,
-        title:"",
-        desc :"",
-        author : "",
-        channelId:"",
-        date:"",
-        page: ""
+        title:"NMIXX(엔믹스) “별별별 (See that?)” M/V",
+        videoId: "_Q8Jskeps9w"
     },
     {
         img: mv15,
-        title:"",
-        desc :"",
-        author : "",
-        channelId:"",
-        date:"",
-        page: ""
+        title:"이찬원(LeeChanWon) '하늘 여행' official MV",
+        videoId: "AhmRaCQayv8"
     },
     {
         img: mv16,
-        title:"",
-        desc :"",
-        author : "",
-        channelId:"",
-        date:"",
-        page: ""
-    },
-    {
-        img: mv17,
-        title:"",
-        desc :"",
-        author : "",
-        channelId:"",
-        date:"",
-        page: ""
-    },
-    {
-        img: mv18,
-        title:"",
-        desc :"",
-        author : "",
-        channelId:"",
-        date:"",
-        page: ""
-    },
-    {
-        img: mv19,
-        title:"",
-        desc :"",
-        author : "",
-        channelId:"",
-        date:"",
-        page: ""
-    },
-    {
-        img: mv20,
-        title:"",
-        desc :"",
-        author : "",
-        channelId:"",
-        date:"",
-        page: ""
+        title:"tripleS(트리플에스) 'Girls Never Die' Official MV",
+        videoId: "2tda_TCjz8w"
     },
 
 ]

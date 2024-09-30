@@ -4,7 +4,7 @@ import Main from '../components/section/Main'
 import { artistText } from '../data/artist'
 import { Link } from 'react-router-dom'
 
-import { FaRegStar } from "react-icons/fa6";
+// import { FaRegStar } from "react-icons/fa6";
    
 
 const Artist = () => {
@@ -25,7 +25,7 @@ const Artist = () => {
             
 
             <section id='artistPage' className={artistPageClass}>
-            <h2>인기 아티스트를 소개합니다 <FaRegStar /></h2>
+            <h2>인기 아티스트</h2>
             <div className="artist__inner" >
                 {artistText.map((artist, key)=>(
                     <div className='artist' key={key}>

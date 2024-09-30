@@ -1,11 +1,12 @@
 body {
     background-color: var(--black);
     color: var(--black);
+    margin-top: 70px;
 }
 
 // 섹션 공통 요소
 section {
-    padding: 0 40px 40px 40px;
+    padding: 20px 40px ;
 
     @media (max-width: 800px){
         padding: 20px;
@@ -15,6 +16,7 @@ section {
         font-size: 1.25rem;
         margin-bottom: 1rem;
         position: relative;
+        font-weight: 600;
 
         svg {
             position: absolute;

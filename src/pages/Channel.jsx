@@ -38,7 +38,7 @@ const Channel = () => {
         if(nextPageToken) {
             const videosData = await fetchFromAPI(`search?channelId=${channelId}&part=snippet%2Cid&order=date&pageToken=${nextPageToken}`);
             setChannelVideo(prevVideos =>[...prevVideos,...videosData.items]);
-            // setNextPageToken(videosData?.nextPageToken);
+            setNextPageToken(videosData?.nextPageToken);
         }
     }
 

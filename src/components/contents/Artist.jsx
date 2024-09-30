@@ -9,7 +9,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 
 
-import { FaRegStar } from "react-icons/fa6";
 
 const Artist = ({videos, title, id}) => {
         const [loading, setLoading] = useState(true); 
@@ -24,7 +23,7 @@ const Artist = ({videos, title, id}) => {
 
     return (
         <section id={id} className={artistClass}>
-            <h2>{title}<FaRegStar /></h2>
+            <h2>{title}</h2>
             <div className="artist__inner overflow" >
             <Swiper
                     slidesPerView={4}

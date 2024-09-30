@@ -5,7 +5,7 @@
     width: 260px;
     height: 100%;
     z-index: 10000;
-    background-color: #f3f3f3;
+    background-color: #f9f9f9;
 }
 #main {
     max-width: 2000px;
@@ -34,12 +34,19 @@
             left: 0; top: 0;
         }
 
+
         .header__menu {
             margin-top: 90px;
         }
 
         &.active {
             left: 0;
+
+            
+            .menubtn {
+                width: 15px;
+                transition: all 0.3s;
+            }
         }
     }
     #main {

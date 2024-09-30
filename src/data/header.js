@@ -38,16 +38,16 @@ export const searchKeyword = [
     {
         title:"비 오는 날 듣기 좋은",
         icon:<IoIosSearch />,
-        src:"/search/비 오는 날 플리/"
+        src:"/search/비 오는 날 듣기 좋은/"
     },
     {
         title:"공부집중 잘 되는",
         icon:<IoIosSearch />,
-        src:"/search/공부집중 잘 되는 플리"
+        src:"/search/공부집중 잘 되는"
     },
     {
-        title:"드라이브 신나는 플리",
+        title:"드라이브 신나는",
         icon:<IoIosSearch />,
-        src:"/search/드라이브 신나는 플리"
+        src:"/search/드라이브 신나는"
     }
 ]

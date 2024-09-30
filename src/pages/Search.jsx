@@ -43,6 +43,7 @@ const Search = () => {
             description="유튜브 검색 결과 페이지입니다.">
             
             <section id='searchPage'>
+                <h2><em>"{searchId}"</em> 에 대한 검색결과입니다.</h2>
                 <div className="video__inner search">
                     <VideoSearch videos={videos} />
                 </div>

@@ -33,7 +33,7 @@ const Today = () => {
                             </Link>
                         </div>
                         <div className='today__text'>
-                            <span className='today'>today!</span>
+                            <span className='today'>new!</span>
                             <h3 className='title'>
                                 <Link to={today.page}>{today.title}</Link>
                             </h3>

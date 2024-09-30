@@ -11,12 +11,10 @@
     background-color: #fff !important;
 }
 .swiper-button-next {
-    // background-color: #00000069;
     right: 0 !important;
     top: 40% !important;
 }
 .swiper-button-prev {
-    // background-color: #00000069;
     left: 0 !important;
     top: 40% !important;
 }
@@ -26,4 +24,9 @@
 .video__slider .swiper-button-prev {
     top: 50% !important;
 }
+
+.swiper {
+    width: 98%;
+}
+
                         
