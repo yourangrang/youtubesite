@@ -1,6 +1,6 @@
 import pl01 from "../assets/img/pl/pl01.jpg"
-import mv02 from "../assets/img/mv/mv02.jpg"
-import mv03 from "../assets/img/mv/mv03.jpg"
+import mv02 from "../assets/img/mv/mv02-min.jpg"
+import mv03 from "../assets/img/mv/mv03-min.jpg"
 import pl15 from "../assets/img/pl/pl15.jpg"
 import pl08 from "../assets/img/pl/pl08.jpg"
 
