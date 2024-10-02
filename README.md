@@ -1,14 +1,22 @@
 #유튜브 사이트 만들기
 
 YouTube API를 이용하여 영상사이트를 만들었습니다.
+
+
 컴포넌트를 구조화하고 상태를 관리했으며
+
+
 YouTube Data API를 활용하여 외부 데이터를 가져오는 방법을 익히고
+
+
 API 응답을 처리하는과정을 통해 사용자에게 정보를 제공하는 방법을 학습했습니다.
+
+
 
 ## 완성작 보기
 미리보기 : https://youyoutubesite.netlify.app/
 
-&nbsp; &nbsp; &nbsp;  https://youtubesite.vercel.app
+&nbsp; &nbsp; &nbsp; &nbsp;  https://youtubesite.vercel.app
 
 ## 사용스택
 - node.js 
