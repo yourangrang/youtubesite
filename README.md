@@ -7,7 +7,7 @@ API 응답을 처리하는과정을 통해 사용자에게 정보를 제공하�
 
 ## 완성작 보기
 미리보기 : https://youyoutubesite.netlify.app/
-           https://youtubesite.vercel.app
+>>> https://youtubesite.vercel.app
 
 ## 사용스택
 - node.js 
