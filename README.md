@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛍️ 나만의 유튜브 스타일 영상 사이트트
 <div align="center">
   <img src="src/assets/img/pl/youtube.jpg" alt="유튜브사이트" width="600"/>
@@ -73,5 +74,4 @@ C:.
 - 주요 컴포넌트를 **비동기 분리 로딩(Lazy Loading)** 적용
 - 필요한 시점에만 컴포넌트를 렌더링하여 초기 렌더링 부담 최소화
 - ➡️ 초기 로딩 시간 **3.5초 → 1.8초로 단축** *(Chrome DevTools 기준)*
-
 
