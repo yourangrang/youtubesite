@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# 🛍️ 나만의 유튜브 스타일 영상 사이트트
+# 📺 오늘뮤직 - 사용자 취향의 유튜브 사이트
 <div align="center">
   <img src="src/assets/img/pl/youtube.jpg" alt="유튜브사이트" width="600"/>
 </div>
