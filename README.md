@@ -1,25 +1,77 @@
-# 나만의 유튜브 사이트 만들기
+# 🛍️ 나만의 유튜브 스타일 영상 사이트트
+<div align="center">
+  <img src="src/assets/img/pl/youtube.jpg" alt="유튜브사이트" width="600"/>
+</div>
 
-YouTube API를 이용하여 저만의영상 사이트를 만들었습니다. 컴포넌트를 구조화하고 상태를 관리했으며 YouTube Data API를 활용하여 외부 데이터를 가져오는 방법을 익히고, API 응답을 처리하여 사용자에게 정보를 제공하는 방법을 학습하는데 도움이 되었습니다.
+<br/><br/>
 
-## 완성작 보기
-미리보기 : 
+## 🖼 주요 기능
 
-## 사용스택
-- node.js를 설치하고 사용합니다. 
-- react를 사용하여 사이트를 완성합니다. 
-- youTube Api를 이용하여 데이터를 가져옵니다.
-- rapidapi를 이용하여 데이터를 가져옵니다.
-- netlify를 통해 사이트를 배포합니다.
-- vercel를 통해 사이트를 배포합니다.
-- git을 사용하여 파일을 관리합니다.
+- 🎧 실시간 음악 영상 검색
+- 📺 스와이프 기반 추천 콘텐츠 탐색
+- ⏱ 빠른 초기 로딩 및 사용자 중심 인터페이스 제공
+- 📱 반응형 디자인으로 모바일 환경에서도 최적화
 
-## 프로젝트 실행
-- react를 설치합니다. `npx create-react-app 타이틀`
-- react-router-dom을 설치합니다. `npm install react-router-dom`
-- axios를 설치합니다. `npm install axios`
-- react-icons을 설치합니다. `npm install react-icons`
-- react-player를 설치합니다. `npm install react-player`
-- sass를 설치합니다. `npm install sass`
-- react-helmet-async를 설치합니다. `npm install react-helmet-async`
-- swiper를 설치합니다. `npm install swiper`
+---
+
+## 📌 사용 기술
+
+- **React (Vite 기반)** – 빠른 번들링과 개발 환경 구성
+- **Axios** – API 통신 처리 및 응답 최적화
+- **rapidAPI** – 다양한 음악/영상 관련 데이터 제공 API 연동
+- **Swiper.js** – 터치 기반 슬라이드 UI 구현
+
+---
+
+## 📁 폴더 구조
+```
+C:.
+├─assets
+│  ├─fonts
+│  ├─img
+│  │  ├─artist
+│  │  ├─icon
+│  │  ├─mv
+│  │  └─pl
+│  └─scss
+│      ├─section
+│      └─setting
+├─components
+│  ├─contents
+│  ├─header
+│  ├─section
+│  └─videos
+├─data
+├─pages
+└─utils
+│  │  ├─mv
+│  │  └─pl
+│  └─scss
+│      ├─section
+│      └─setting
+├─components
+│  ├─contents
+│  ├─header
+│  ├─section
+│  └─videos
+├─data
+├─pages
+└─utils
+
+```
+
+## 🔧 핵심 경험 및 성능 개선
+
+### 네트워크 최적화
+
+- `axios`에 **baseURL 사전 정의** 및 **Accept-Encoding: gzip** 설정
+- **브라우저 HTTP 캐싱**을 활성화하여 중복 요청 방지
+- ➡️ 반복 요청 시 평균 응답 속도 **320ms → 190ms**, 전체 네트워크 트래픽 **약 30% 절감**
+
+### 실시간 검색 및 렌더링 성능 향상
+
+- 주요 컴포넌트를 **비동기 분리 로딩(Lazy Loading)** 적용
+- 필요한 시점에만 컴포넌트를 렌더링하여 초기 렌더링 부담 최소화
+- ➡️ 초기 로딩 시간 **3.5초 → 1.8초로 단축** *(Chrome DevTools 기준)*
+
+
