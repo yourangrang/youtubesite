@@ -19,23 +19,23 @@ import mv16 from "../assets/img/mv/mv16-min.jpg"
 export const musicvideoText = [
     {
         img: mv01,
-        title: "LE SSERAFIM (르세라핌) 'CRAZY' OFFICIAL MV",
-        videoId: "n6B5gQXlB-0",
+        title: "TWS(투어스) 'OVERDRIVE' OFFICIAL MV",
+        videoId: "TzbGBkEh9ms",
     },
     {
         img: mv02,
-        title:"DAY6(데이식스) '녹아내려요' M/v",
-        videoId: "yss4rIrHl6o",
+        title:"하츠투하츠 'RUDE!' M/V",
+        videoId: "F7sGJVUrkjQ",
     },
     {
         img: mv03,
-        title:"MEOVV - ‘MEOW’ M/V",
-        videoId: "jpLHg-AsQV0",
+        title:"IVE  ‘BangBang’ M/V",
+        videoId: "9qkpcLK422o",
     },
     {
         img: mv04,
-        title:"NewJeans (뉴진스) ‘Supernatural’ Official MV",
-        videoId: "ZncbtRo7RXs"
+        title:"BTS ‘SWIM’ Official MV",
+        videoId: "b4iVv91Z6lY",
     },
     {
         img: mv05,
@@ -44,8 +44,8 @@ export const musicvideoText = [
     },
     {
         img: mv06,
-        title:"(여자)아이들((G)I-DLE) - '클락션 (Klaxon)' Official Music Video",
-        videoId: "rTKqSmX9XhQ"
+        title:"KiiiKiii 키키 '404 (New Era)' MV",
+        videoId: "zhHB4dZTChw"
     },
     {
         img: mv07,
@@ -54,8 +54,8 @@ export const musicvideoText = [
     },
     {
         img: mv08,
-        title:"Kanye West - Runaway (Video Version) ft. Pusha T",
-        videoId: "Bm5iA4Zupek"
+        title:"aespa 에스파 'Rich Man' MV",
+        videoId: "5oQVTnq-UKk"
     },
     {
         img: mv09,
@@ -74,28 +74,28 @@ export const musicvideoText = [
     },
     {
         img: mv12,
-        title:"TWS (투어스) '내가 S면 넌 나의 N이 되어줘' Official MV",
-        videoId: "NRgZuuwD2WY"
+        title:"CUTIE STREET - 귀엽기만 하면 안 되나요?",
+        videoId: "jZqTz1G8G04"
     },
     {
         img: mv13,
-        title:"임영웅 '온기' Official M/V",
-        videoId: "2WGc-5VdoGw"
+        title:"NMIXX(엔믹스) “Blue Valentine” M/V",
+        videoId: "EmeW6li6bbo"
     },
     {
         img: mv14,
-        title:"NMIXX(엔믹스) “별별별 (See that?)” M/V",
-        videoId: "_Q8Jskeps9w"
+        title:"YENA (최예나) - 캐치 캐치 (Catch Catch) MV",
+        videoId: "NOiyDlWl534",
     },
     {
         img: mv15,
-        title:"이찬원(LeeChanWon) '하늘 여행' official MV",
-        videoId: "AhmRaCQayv8"
+        title:"BLACKPINK 'GO' official MV",
+        videoId: "2GJfWMYCWY0"
     },
     {
         img: mv16,
-        title:"tripleS(트리플에스) 'Girls Never Die' Official MV",
-        videoId: "2tda_TCjz8w"
+        title:"LE SSERAFIM 'SPAGHETTI (feat. j-hope of BTS)' OFFICIAL MV",
+        videoId: "TvVtYaqCni8"
     },
 
 ]

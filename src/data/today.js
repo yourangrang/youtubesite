@@ -3,6 +3,7 @@ import mv02 from "../assets/img/mv/mv02-min.jpg"
 import mv03 from "../assets/img/mv/mv03-min.jpg"
 import pl15 from "../assets/img/pl/pl15.jpg"
 import pl08 from "../assets/img/pl/pl08.jpg"
+import pl14 from "../assets/img/pl/pl14.jpg"
 
 export const todayText = [
     {
@@ -16,20 +17,20 @@ export const todayText = [
     },
     {
         img: mv02,
-        title:"DAY6(데이식스) '녹아내려요' M/v",
-        desc : " '녹아내려요' M/V Listen to DAY6 'Melt Down' https://DAY6.lnk.to/BandAid",
-        author : "JYP Entertainment",
-        channelId:"UCaO6TYtlC8U5ttz62hTrZgg",
-        date:"2024. 9. 2.",
+        title:"Hearts2Hearts 하츠투하츠 'RUDE!' MV",
+        desc : " 'Hearts2Hearts' new single 'RUDE!' is out!",
+        author : "SM Entertainment",
+        channelId:"UCEf_Bc-KVd7onSeifS3py9g",
+        date:"2026. 2. 20.",
         page: "/musicvideo"
     },
     {
         img: mv03,
-        title:"MEOVV - ‘MEOW’ M/V",
-        desc : "이유 없어 난 생긴 대로 chic Now you speak French Talkin’ ‘bout we  아무리 날 불러봐 Oh please 가는 길이 달라 Can’t keep up with me Try and match my energy 침묵 끝에 터지는 roarin’ 막 타기 시작했어 keep burnin' ",
-        author : "THEBLACKLABEL",
-        channelId:"UCg8ZzloDPTrOiGztK0C9txQ",
-        date:" 2024. 9. 6. ",
+        title:"IVE 아이브 'BANG BANG' MV",
+        desc : "EDM과 일렉트로닉 사운드를 중심으로 전개되는 강렬한 오프닝 트랙. 웨스턴 스윙을 활용한 인트로부터 직선적인 비트와 에너지가 단번에 귀를 사로잡는다 ",
+        author : "STARSHIP",
+        channelId:"UCYDmx2Sfpnaxg488yBpZIGg",
+        date:"2026. 2. 9.",
         page: "/musicvideo",
     },
     {
@@ -45,13 +46,23 @@ export const todayText = [
     {
         title: "[그시절] 투니버스 리즈시절 만화주제가 노래모음 | 𝗣𝗟𝗔𝗬𝗟𝗜𝗦𝗧 | 2000년대 애니 OST 모음",
         img: pl08,
-        desc: "",
+        desc: "만화주제가 플리에 맞게 TV 이미지와 저화질사진들로 구성해보았어요!! 저는 다다다를 재미있게 보았던 기억이 있는데, 여러분은 어떤 만화가 제일 기억에 남나요??",
         author: "나의플레이리스트 naply",
         videoId: "oC8WmCa-UlM",
         date: "2023. 1. 15.",
         channelId: "UC2kPuCfWPDZhRg60gOdOlKg",
         topic: " 2000년대 애니 OST 모음 ",
         page: "/playlist"
+    },
+    {
+        title: "𝑷𝒍𝒂𝒚𝒍𝒊𝒔𝒕ㅣ🔥할 수 있다 !🔥동기부여 200% 노래모음",
+        img: pl14,
+        desc: "꿈이 있다면 그 꿈을 잡고 절대 놓아주지마라. 미래는 현재 우리가 무엇을 하는가에 달려 있다.",
+        author: "니어보이",
+        videoId: "ScSrocMZICQ",
+        date: "2023. 1. 15.",
+        channelId: "UCu4vwQSoBsjtSWh7uAuy2iA",
+        topic: " 동기부여 노래모음 ",
+        page: "/playlist"
     }
-    
 ]
