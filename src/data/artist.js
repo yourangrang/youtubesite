@@ -4,7 +4,6 @@ import allday from "../assets/img/artist/allday.jpg";
 import blackpink from "../assets/img/artist/blackpink.jpg"; 
 import bts from "../assets/img/artist/bts.jpg"; 
 import cortis from "../assets/img/artist/cortis.jpg"; 
-import fifty from "../assets/img/artist/fifty.jpg"; 
 import fromis9 from "../assets/img/artist/fromis9.jpg"; 
 import hth from "../assets/img/artist/hth.jpg"; 
 import idle from "../assets/img/artist/idle.jpg"; 
