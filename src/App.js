@@ -36,3 +36,5 @@ const App = () => {
 }
 
 export default App;
+
+// Routes가 URL 기반 선택, React.lazy()가 코드 분리, Suspense가 로딩 처리 -> Route 기반 코드 스플리팅
