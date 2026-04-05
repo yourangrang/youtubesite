@@ -1,7 +1,7 @@
 # 📺 오늘뮤직 - 유튜브API를 활용한 음악영상 웹
-<div align="center">
-  <img src="src/assets/img/pl/youtube.jpg" alt="유튜브사이트" width="600"/>
-</div>
+<a href="https://todayms.netlify.app" target="_blank">
+  <img src="src/assets/img/todayms.jpg.jpg" alt="사이트사진" width="600"/>
+</a>
 
 <br/><br/>
 
